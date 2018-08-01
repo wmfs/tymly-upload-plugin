@@ -4,6 +4,11 @@
   "version": "0.0.3",
   "author": "Martina Henry",
   "main": "./lib/index.js",
+  "keywords": [
+    "tymly",
+    "plugin",
+    "upload"
+  ],
   "dependencies": {
     "dottie": "2.0.0",
     "file-extension": "4.0.5",
