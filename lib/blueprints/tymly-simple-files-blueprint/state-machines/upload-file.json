@@ -6,8 +6,6 @@
     "UploadFile": {
       "Type": "Task",
       "Resource": "module:uploadFile",
-      "InputPath": "$",
-      "ResultPath" : "$.ctx",
       "End": true
     }
   },

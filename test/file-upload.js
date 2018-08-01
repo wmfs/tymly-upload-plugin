@@ -8,20 +8,20 @@ const expect = require('chai').expect
 
 const UPLOAD_FILE_STATE_MACHINE = 'tymly_uploadFile_1_0'
 const FILENAME = 'fixtures/test_file.txt'
-let executionName, fileService, fileId
+let fileService, fileId
 
 describe('file upload tests', function () {
   this.timeout(process.env.TIMEOUT || 5000)
   let statebox, tymlyService
 
-  it('should create some basic tymly services', function (done) {
+  it('should create some basic tymly services', done => {
     tymly.boot(
       {
         pluginPaths: [
           path.resolve(__dirname, './../lib')
         ]
       },
-      function (err, tymlyServices) {
+      (err, tymlyServices) => {
         expect(err).to.eql(null)
         statebox = tymlyServices.statebox
         tymlyService = tymlyServices.tymly
@@ -31,56 +31,39 @@ describe('file upload tests', function () {
     )
   })
 
-  it('should start the state machine to get file Upload data', function (done) {
-    statebox.startExecution(
-      {
-        fileName: 'fixtures/test_file.txt'
-      },
+  it('should start the state machine to get file Upload data', async () => {
+    const execDesc = await statebox.startExecution(
+      {fileName: 'fixtures/test_file.txt'},
       UPLOAD_FILE_STATE_MACHINE,
-      {
-        sendResponse: 'COMPLETE',
-        userId: 'test-user'
-      },
-      function (err, executionDescription) {
-        expect(err).to.eql(null)
-        expect(executionDescription.currentStateName).to.eql('UploadFile')
-        expect(executionDescription.currentResource).to.eql('module:uploadFile')
-        expect(executionDescription.stateMachineName).to.eql(UPLOAD_FILE_STATE_MACHINE)
-        expect(executionDescription.status).to.eql('SUCCEEDED')
-
-        console.log('setting fileid as ', executionDescription.ctx.ctx.fileId)
-
-        fileId = executionDescription.ctx.ctx.fileId
-        executionName = executionDescription.executionName
-        done()
-      }
+      {sendResponse: 'COMPLETE', userId: 'test-user'}
     )
+
+    expect(execDesc.currentStateName).to.eql('UploadFile')
+    expect(execDesc.currentResource).to.eql('module:uploadFile')
+    expect(execDesc.stateMachineName).to.eql(UPLOAD_FILE_STATE_MACHINE)
+    expect(execDesc.status).to.eql('SUCCEEDED')
+    expect(execDesc.ctx.fileName).to.eql(FILENAME)
+
+    fileId = execDesc.ctx.fileId
   })
 
-  it('should await upload complete', done => {
-    statebox.waitUntilStoppedRunning(
-      executionName,
-      (err, executionDescription) => {
-        expect(executionDescription.status).to.eql('SUCCEEDED')
-        expect(executionDescription.ctx.ctx.fileName).to.eql(FILENAME)
-        expect(executionDescription.currentStateName).to.eql('UploadFile')
-        expect(err).to.eql(null)
-        done()
-      }
-    )
+  it('should check that the file has been uploaded', async () => {
+    const doc = await fileService.findById(fileId)
+
+    expect(doc.fileName).to.eql(FILENAME)
+    expect(doc.id).to.eql(fileId)
+    expect(doc.createdBy).to.eql('test-user')
   })
 
-  it('should check that the file has been uploaded', done => {
-    fileService.findById(
-      fileId,
-      (err, doc) => {
-        expect(err).to.eql(null)
-        expect(doc.fileName).to.eql(FILENAME)
-        expect(doc.id).to.eql(fileId)
-        expect(doc.createdBy).to.eql('test-user')
-        done()
-      }
+  it('should start the state machine without any input/file', async () => {
+    const execDesc = await statebox.startExecution(
+      {},
+      UPLOAD_FILE_STATE_MACHINE,
+      {sendResponse: 'COMPLETE', userId: 'test-user'}
     )
+
+    expect(execDesc.status).to.eql('FAILED')
+    expect(execDesc.errorCode).to.eql('No fileName on input')
   })
 
   it('should shut down Tymly nicely', async () => {
