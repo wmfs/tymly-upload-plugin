@@ -8,7 +8,7 @@ const expect = require('chai').expect
 
 const UPLOAD_FILE_STATE_MACHINE = 'tymly_uploadFile_1_0'
 const FILENAME = 'fixtures/test_file.txt'
-let fileService, fileId
+let fileModel, fileId
 
 describe('file upload tests', function () {
   this.timeout(process.env.TIMEOUT || 5000)
@@ -25,7 +25,7 @@ describe('file upload tests', function () {
         expect(err).to.eql(null)
         statebox = tymlyServices.statebox
         tymlyService = tymlyServices.tymly
-        fileService = tymlyServices.storage.models['tymly_files']
+        fileModel = tymlyServices.storage.models['tymly_files']
         done()
       }
     )
@@ -48,7 +48,7 @@ describe('file upload tests', function () {
   })
 
   it('should check that the file has been uploaded', async () => {
-    const doc = await fileService.findById(fileId)
+    const doc = await fileModel.findById(fileId)
 
     expect(doc.fileName).to.eql(FILENAME)
     expect(doc.id).to.eql(fileId)
