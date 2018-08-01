@@ -4,15 +4,17 @@
 
 const tymly = require('@wmfs/tymly')
 const path = require('path')
+const fs = require('fs')
 const expect = require('chai').expect
 
 const UPLOAD_FILE_STATE_MACHINE = 'tymly_uploadFile_1_0'
 const FILENAME = 'fixtures/test_file.txt'
+const FILEPATH = path.resolve(__dirname, FILENAME)
 let fileModel, fileId
 
 describe('file upload tests', function () {
   this.timeout(process.env.TIMEOUT || 5000)
-  let statebox, tymlyService
+  let statebox, tymlyService, base64
 
   it('should create some basic tymly services', done => {
     tymly.boot(
@@ -30,10 +32,14 @@ describe('file upload tests', function () {
       }
     )
   })
+  
+  it('read the file in so we can pass it on', async () => {
+    base64 = fs.readFileSync(FILEPATH).toString('base64')
+  })
 
   it('should start the state machine to get file Upload data', async () => {
     const execDesc = await statebox.startExecution(
-      {fileName: 'fixtures/test_file.txt'},
+      {base64, fileName: 'fixtures/test_file.txt'},
       UPLOAD_FILE_STATE_MACHINE,
       {sendResponse: 'COMPLETE', userId: 'test-user'}
     )
