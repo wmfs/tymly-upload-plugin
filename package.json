@@ -1,15 +1,23 @@
 {
   "name": "@wmfs/tymly-upload-plugin",
   "version": "0.0.0-semantically-released",
+  "author": "West Midlands Fire Service",
   "description": "Plugin which handles File Uploads",
-  "author": "Martina Henry",
-  "main": "./lib/index.js",
   "homepage": "https://github.com/wmfs/tymly-pg-plugin#readme",
   "keywords": [
     "tymly",
     "plugin",
     "upload"
   ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wmfs/tymly-upload-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wmfs/tymly-upload-plugin/issues"
+  },
+  "main": "./lib/index.js",
   "dependencies": {
     "dottie": "2.0.0",
     "file-extension": "4.0.5",
@@ -46,13 +54,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wmfs/tymly-upload-plugin"
-  },
-  "bugs": {
-    "url": "https://github.com/wmfs/tymly-upload-plugin/issues"
   }
 }
