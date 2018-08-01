@@ -10,11 +10,10 @@ const expect = require('chai').expect
 const UPLOAD_FILE_STATE_MACHINE = 'tymly_uploadFile_1_0'
 const FILENAME = 'fixtures/test_file.txt'
 const FILEPATH = path.resolve(__dirname, FILENAME)
-let fileModel, fileId
+let fileModel, fileId, statebox, tymlyService, base64
 
 describe('file upload tests', function () {
   this.timeout(process.env.TIMEOUT || 5000)
-  let statebox, tymlyService, base64
 
   it('should create some basic tymly services', done => {
     tymly.boot(
