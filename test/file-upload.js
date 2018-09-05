@@ -38,9 +38,9 @@ describe('file upload tests', function () {
 
   it('should start the state machine to get file Upload data', async () => {
     const execDesc = await statebox.startExecution(
-      {base64, fileName},
+      { base64, fileName },
       UPLOAD_FILE_STATE_MACHINE,
-      {sendResponse: 'COMPLETE', userId: 'test-user'}
+      { sendResponse: 'COMPLETE', userId: 'test-user' }
     )
 
     expect(execDesc.currentStateName).to.eql('UploadFile')
@@ -64,7 +64,7 @@ describe('file upload tests', function () {
     const execDesc = await statebox.startExecution(
       {},
       UPLOAD_FILE_STATE_MACHINE,
-      {sendResponse: 'COMPLETE', userId: 'test-user'}
+      { sendResponse: 'COMPLETE', userId: 'test-user' }
     )
 
     expect(execDesc.status).to.eql('FAILED')
@@ -73,9 +73,9 @@ describe('file upload tests', function () {
 
   it('should start the state machine without any base64', async () => {
     const execDesc = await statebox.startExecution(
-      {fileName},
+      { fileName },
       UPLOAD_FILE_STATE_MACHINE,
-      {sendResponse: 'COMPLETE', userId: 'test-user'}
+      { sendResponse: 'COMPLETE', userId: 'test-user' }
     )
 
     expect(execDesc.status).to.eql('FAILED')
