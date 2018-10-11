@@ -1,3 +1,28 @@
+# [1.3.0](https://github.com/wmfs/tymly-upload-plugin/compare/v1.2.0...v1.3.0) (2018-10-11)
+
+
+### 🛠 Builds
+
+* **deps:** Update debug 4.0.1 to 4.1.0 ([0f6f0b9](https://github.com/wmfs/tymly-upload-plugin/commit/0f6f0b9))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly requirement from 1.32.0 to 1.33.0 ([15673bc](https://github.com/wmfs/tymly-upload-plugin/commit/15673bc))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly requirement from 1.33.0 to 1.34.0 ([8cc1fef](https://github.com/wmfs/tymly-upload-plugin/commit/8cc1fef))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly requirement from 1.34.0 to 1.37.0 ([d0e9f83](https://github.com/wmfs/tymly-upload-plugin/commit/d0e9f83))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly requirement from 1.37.0 to 1.39.0 ([0c84d3b](https://github.com/wmfs/tymly-upload-plugin/commit/0c84d3b))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly requirement from 1.39.0 to 1.40.0 ([1ba1bc7](https://github.com/wmfs/tymly-upload-plugin/commit/1ba1bc7))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly requirement from 1.40.0 to 1.42.0 ([0b4ea05](https://github.com/wmfs/tymly-upload-plugin/commit/0b4ea05))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly requirement from 1.42.0 to 1.45.0 ([49ef556](https://github.com/wmfs/tymly-upload-plugin/commit/49ef556))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly-pg-plugin requirement ([e9cf45e](https://github.com/wmfs/tymly-upload-plugin/commit/e9cf45e))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly-pg-plugin requirement ([070f990](https://github.com/wmfs/tymly-upload-plugin/commit/070f990))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly-pg-plugin requirement ([854a395](https://github.com/wmfs/tymly-upload-plugin/commit/854a395))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly-pg-plugin requirement ([f43bfd2](https://github.com/wmfs/tymly-upload-plugin/commit/f43bfd2))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly-pg-plugin requirement ([8a30652](https://github.com/wmfs/tymly-upload-plugin/commit/8a30652))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly-solr-plugin requirement ([796ca23](https://github.com/wmfs/tymly-upload-plugin/commit/796ca23))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly-users-plugin requirement ([eacc1fe](https://github.com/wmfs/tymly-upload-plugin/commit/eacc1fe))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly-users-plugin requirement ([8b8050e](https://github.com/wmfs/tymly-upload-plugin/commit/8b8050e))
+* **deps-dev:** update chai requirement from 4.1.2 to 4.2.0 ([40d0580](https://github.com/wmfs/tymly-upload-plugin/commit/40d0580))
+* **deps-dev:** update semantic-release requirement ([1fbecad](https://github.com/wmfs/tymly-upload-plugin/commit/1fbecad))
+* **deps-dev:** update semantic-release requirement ([2fa3b8b](https://github.com/wmfs/tymly-upload-plugin/commit/2fa3b8b))
+
 # [1.2.0](https://github.com/wmfs/tymly-upload-plugin/compare/v1.1.0...v1.2.0) (2018-09-17)
 
 
