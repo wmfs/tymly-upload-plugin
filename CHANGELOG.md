@@ -1,3 +1,36 @@
+## [1.4.1](https://github.com/wmfs/tymly-upload-plugin/compare/v1.4.0...v1.4.1) (2019-01-27)
+
+
+### 🐛 Bug Fixes
+
+* Ignore package-lock.json. ([eaf3b27](https://github.com/wmfs/tymly-upload-plugin/commit/eaf3b27))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.61.0 to 1.62.0 ([4e6bafa](https://github.com/wmfs/tymly-upload-plugin/commit/4e6bafa))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.62.0 to 1.63.0 ([39d463f](https://github.com/wmfs/tymly-upload-plugin/commit/39d463f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.63.0 to 1.64.0 ([3398474](https://github.com/wmfs/tymly-upload-plugin/commit/3398474))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.64.0 to 1.66.0 ([b37e676](https://github.com/wmfs/tymly-upload-plugin/commit/b37e676))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.104.0 to 1.105.0 ([3ad7948](https://github.com/wmfs/tymly-upload-plugin/commit/3ad7948))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.105.0 to 1.106.0 ([735e7f7](https://github.com/wmfs/tymly-upload-plugin/commit/735e7f7))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.106.0 to 1.108.0 ([01e3fec](https://github.com/wmfs/tymly-upload-plugin/commit/01e3fec))
+* **deps-dev:** bump semantic-release from 15.12.0 to 15.12.1 ([c12e36e](https://github.com/wmfs/tymly-upload-plugin/commit/c12e36e))
+* **deps-dev:** bump semantic-release from 15.12.1 to 15.12.2 ([64de8b7](https://github.com/wmfs/tymly-upload-plugin/commit/64de8b7))
+* **deps-dev:** bump semantic-release from 15.12.2 to 15.13.1 ([#127](https://github.com/wmfs/tymly-upload-plugin/issues/127)) ([cae6c9d](https://github.com/wmfs/tymly-upload-plugin/commit/cae6c9d))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([ebd2389](https://github.com/wmfs/tymly-upload-plugin/commit/ebd2389))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add circle ci config ([e6b20f5](https://github.com/wmfs/tymly-upload-plugin/commit/e6b20f5))
+* **travis:** update travis config ([1b9c871](https://github.com/wmfs/tymly-upload-plugin/commit/1b9c871))
+
+
+### ♻️ Chores
+
+* Remove package-lock ([0c7faff](https://github.com/wmfs/tymly-upload-plugin/commit/0c7faff))
+
 # [1.4.0](https://github.com/wmfs/tymly-upload-plugin/compare/v1.3.0...v1.4.0) (2018-11-19)
 
 
