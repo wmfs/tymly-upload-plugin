@@ -1,3 +1,27 @@
+## [1.4.2](https://github.com/wmfs/tymly-upload-plugin/compare/v1.4.1...v1.4.2) (2019-11-08)
+
+
+### 🐛 Bug Fixes
+
+* change users plugin to cardscript plugin ([](https://github.com/wmfs/tymly-upload-plugin/commit/232ded3))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dev dependancies ([](https://github.com/wmfs/tymly-upload-plugin/commit/0504679))
+* **dev-deps:** Bump nyc, semantic-release, and [@wmfs](https://github.com/wmfs)/ dev deps ([](https://github.com/wmfs/tymly-upload-plugin/commit/1b2d435))
+
+
+### 📚 Documentation
+
+* add circleci status [skip ci] ([](https://github.com/wmfs/tymly-upload-plugin/commit/f684e02))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Update CircleCI config - Travis migration ([](https://github.com/wmfs/tymly-upload-plugin/commit/e03aae4))
+* **travis:** remove Travis config ([](https://github.com/wmfs/tymly-upload-plugin/commit/0ce5677))
+
 ## [1.4.1](https://github.com/wmfs/tymly-upload-plugin/compare/v1.4.0...v1.4.1) (2019-01-27)
 
 
