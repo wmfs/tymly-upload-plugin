@@ -1,3 +1,30 @@
+## [1.4.3](https://github.com/wmfs/tymly-upload-plugin/compare/v1.4.2...v1.4.3) (2020-04-16)
+
+
+### 🐛 Bug Fixes
+
+* **state-resource:** Removed callback parameter from upload-file.init ([670f6e3](https://github.com/wmfs/tymly-upload-plugin/commit/670f6e300edb76a44efdd9f8dfc5321e6b4673c1))
+
+
+### 🛠 Builds
+
+* **deps-dev:** add [@semantic-release](https://github.com/semantic-release)/exec ([ce8f7b5](https://github.com/wmfs/tymly-upload-plugin/commit/ce8f7b5911191b6fd60bf74bd832ace718918ff8))
+* **deps-dev:** bump packages ([23a2bf0](https://github.com/wmfs/tymly-upload-plugin/commit/23a2bf06688c48354e9511f4e339652353a70e76))
+* **deps-dev:** update semantic-release dev dependencies ([a3ddc74](https://github.com/wmfs/tymly-upload-plugin/commit/a3ddc74477f0c4ab61ae6182204c3e6f85f060dc))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add context env var config to config.yml ([98ae55e](https://github.com/wmfs/tymly-upload-plugin/commit/98ae55e3870147a0a021e047132e08ae633703b2))
+* **circle:** update config ([bcdc40a](https://github.com/wmfs/tymly-upload-plugin/commit/bcdc40a0fc6e178bf9adcbd847ca4890dea9e59f))
+
+
+### ♻️ Chores
+
+* add plugin.json ([3ccd6c2](https://github.com/wmfs/tymly-upload-plugin/commit/3ccd6c26cc14f25438af16464561990eb255f098))
+* add version_plugin script ([6f4ef7a](https://github.com/wmfs/tymly-upload-plugin/commit/6f4ef7a7e637f877a48ea6991deb7d84747efd7b))
+* update .releaserc.json ([f98c066](https://github.com/wmfs/tymly-upload-plugin/commit/f98c066b033e166c23ee9edc5f7c523cd8af1cde))
+
 ## [1.4.2](https://github.com/wmfs/tymly-upload-plugin/compare/v1.4.1...v1.4.2) (2019-11-08)
 
 
