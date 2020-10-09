@@ -1,3 +1,21 @@
+# [1.5.0](https://github.com/wmfs/tymly-upload-plugin/compare/v1.4.3...v1.5.0) (2020-10-09)
+
+
+### 🛠 Builds
+
+* **deps:** Update dependencies ([813ab28](https://github.com/wmfs/tymly-upload-plugin/commit/813ab28eb40d52eb69dec8937c4eb982cbf3450b))
+* **deps-dev:** bump codecov from 3.6.1 to 3.7.1 ([6095f4c](https://github.com/wmfs/tymly-upload-plugin/commit/6095f4c6885f8dbe96c1d479a2e0f8fb32405eb4))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** use updated circle node image [skip ci] ([217914a](https://github.com/wmfs/tymly-upload-plugin/commit/217914a6059b4dae9d4cacb7593bad6676e2c0b8))
+
+
+### 💎 Styles
+
+* lint fixes ([50e0aba](https://github.com/wmfs/tymly-upload-plugin/commit/50e0aba9cce250244354edcea723a8a6df1716fd))
+
 ## [1.4.3](https://github.com/wmfs/tymly-upload-plugin/compare/v1.4.2...v1.4.3) (2020-04-16)
 
 
