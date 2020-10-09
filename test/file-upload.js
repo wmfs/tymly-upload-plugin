@@ -26,7 +26,7 @@ describe('file upload tests', function () {
         expect(err).to.eql(null)
         statebox = tymlyServices.statebox
         tymlyService = tymlyServices.tymly
-        fileModel = tymlyServices.storage.models['tymly_files']
+        fileModel = tymlyServices.storage.models.tymly_files
         done()
       }
     )
