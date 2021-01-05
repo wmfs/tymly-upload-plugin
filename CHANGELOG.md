@@ -1,3 +1,60 @@
+# [1.6.0](https://github.com/wmfs/tymly-upload-plugin/compare/v1.5.0...v1.6.0) (2021-01-05)
+
+
+### 🛠 Builds
+
+* **deps:** bump debug from 4.2.0 to 4.3.1 ([4c3c04d](https://github.com/wmfs/tymly-upload-plugin/commit/4c3c04d4a96c526c5d1c200db8ddc2a50d0190a2))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.165.0 to 1.166.0 ([573a178](https://github.com/wmfs/tymly-upload-plugin/commit/573a17896e36206e254841f2f68e4c00f7384ec7))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.166.0 to 1.167.0 ([29bbfb5](https://github.com/wmfs/tymly-upload-plugin/commit/29bbfb5baca216d7f191425485985a4b640e019b))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.167.0 to 1.168.0 ([b354477](https://github.com/wmfs/tymly-upload-plugin/commit/b3544772e3db44db611cbcafb32a6871aa25b453))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.168.0 to 1.169.0 ([9d26d5d](https://github.com/wmfs/tymly-upload-plugin/commit/9d26d5de8b1038ab4ed6d8ef1df34f8cd477548c))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.169.0 to 1.170.0 ([4414b1a](https://github.com/wmfs/tymly-upload-plugin/commit/4414b1ac132f54a7fbf4241f09920220b920361f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.170.0 to 1.171.0 ([6e1686d](https://github.com/wmfs/tymly-upload-plugin/commit/6e1686ddd8ab778f6fecb96abecf16b1e80c4eae))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.171.0 to 1.172.0 ([f3f51fd](https://github.com/wmfs/tymly-upload-plugin/commit/f3f51fda0ea4e12189d4f77cebea2ce134944350))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.172.0 to 1.173.0 ([afbfe52](https://github.com/wmfs/tymly-upload-plugin/commit/afbfe5254bb66c1bcea9b244fbabba159bb9a3ae))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.173.0 to 1.174.0 ([57a089d](https://github.com/wmfs/tymly-upload-plugin/commit/57a089d6da35e06158d28894960bb2ec17724308))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.174.0 to 1.174.1 ([34262d0](https://github.com/wmfs/tymly-upload-plugin/commit/34262d0feb959d3a0083fe85ffff01f198e2ea83))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.174.1 to 1.175.0 ([2a1bb0c](https://github.com/wmfs/tymly-upload-plugin/commit/2a1bb0c2b6d1f7a9cc75b525ab090a2f0ee52dad))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.175.0 to 1.176.0 ([a0db699](https://github.com/wmfs/tymly-upload-plugin/commit/a0db699d99dd5180ccc60dd1670587b7c6b15a8a))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.176.0 to 1.176.1 ([7af44dc](https://github.com/wmfs/tymly-upload-plugin/commit/7af44dc4ed2f60e6861ca16857029f8860eb6110))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([c84a167](https://github.com/wmfs/tymly-upload-plugin/commit/c84a167f82eb89af3b9e09d0c69ca91eb08b25fd))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.231.0 to 1.232.0 ([9adb50c](https://github.com/wmfs/tymly-upload-plugin/commit/9adb50cc610f73063343b2fe5f6c9e4a66b6af05))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.232.0 to 1.233.0 ([bd23aba](https://github.com/wmfs/tymly-upload-plugin/commit/bd23aba6cf6ad37d6a2b0c0bae2f5a6c2c4902d8))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.14.0 to 2.15.0 ([8034470](https://github.com/wmfs/tymly-upload-plugin/commit/803447019f20be4ce3fe1864613dc4be4feb0e72))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.15.0 to 2.16.0 ([c0979dd](https://github.com/wmfs/tymly-upload-plugin/commit/c0979dde78ae487c55b3b6e687bf80f65b4acf6c))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.16.0 to 2.17.0 ([6ae730f](https://github.com/wmfs/tymly-upload-plugin/commit/6ae730ffe19485300b59e8f6a0533bb117640196))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.17.0 to 2.17.1 ([7b153bd](https://github.com/wmfs/tymly-upload-plugin/commit/7b153bdcc4298d7a586daa3832af2954ea488fa8))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.17.1 to 2.18.0 ([2dfa75b](https://github.com/wmfs/tymly-upload-plugin/commit/2dfa75bfe1211a9e646046eeafc0d56e7e8c8bcc))
+* **deps-dev:** bump codecov from 3.8.0 to 3.8.1 ([b77a882](https://github.com/wmfs/tymly-upload-plugin/commit/b77a8825b642df8a1f39f921aea4b111071c4c6a))
+* **deps-dev:** bump mocha from 8.1.3 to 8.2.0 ([b2d56eb](https://github.com/wmfs/tymly-upload-plugin/commit/b2d56eb4947e1bf8a08708177881adcc5b3239d6))
+* **deps-dev:** bump mocha from 8.2.0 to 8.2.1 ([39c58d7](https://github.com/wmfs/tymly-upload-plugin/commit/39c58d7fc7d2df9e996a0379727bf694ebedaa9b))
+* **deps-dev:** bump semantic-release from 17.1.2 to 17.2.1 ([f4da884](https://github.com/wmfs/tymly-upload-plugin/commit/f4da884c6d63308f72ebba903f91ad78329dd007))
+* **deps-dev:** bump semantic-release from 17.2.1 to 17.2.2 ([c8bba43](https://github.com/wmfs/tymly-upload-plugin/commit/c8bba43d614aa180d59b6fcc4e244d222f8ab950))
+* **deps-dev:** bump semantic-release from 17.2.2 to 17.2.3 ([f11120f](https://github.com/wmfs/tymly-upload-plugin/commit/f11120f6bfa05e3c15a960c8f7e3003cbe0d0e6e))
+* **deps-dev:** bump semantic-release from 17.2.3 to 17.2.4 ([6c61b43](https://github.com/wmfs/tymly-upload-plugin/commit/6c61b43505551edfd458102e227f70adaec37e6f))
+* **deps-dev:** bump semantic-release from 17.2.4 to 17.3.0 ([c4ea559](https://github.com/wmfs/tymly-upload-plugin/commit/c4ea559eae2ad3244ac9e410920d70d1f50214a4))
+* **deps-dev:** bump semantic-release from 17.3.0 to 17.3.1 ([0fb62b5](https://github.com/wmfs/tymly-upload-plugin/commit/0fb62b5e01227695f21a9d4be9ac7eec2ebd5bfe))
+* **deps-dev:** bump standard from 14.3.4 to 15.0.0 ([37aca54](https://github.com/wmfs/tymly-upload-plugin/commit/37aca545cef4b78304edbb2421211bdaa42ee28d))
+* **deps-dev:** bump standard from 15.0.0 to 15.0.1 ([c985324](https://github.com/wmfs/tymly-upload-plugin/commit/c9853240df11ac8df7b24adbe7292a181a945014))
+* **deps-dev:** bump standard from 15.0.1 to 16.0.0 ([7ebe175](https://github.com/wmfs/tymly-upload-plugin/commit/7ebe1754948a9b6f0c703ba6bab23395fb850843))
+* **deps-dev:** bump standard from 16.0.0 to 16.0.1 ([e0c9b52](https://github.com/wmfs/tymly-upload-plugin/commit/e0c9b5204c03de230ef030ee3a2782282aba97e1))
+* **deps-dev:** bump standard from 16.0.1 to 16.0.2 ([d777372](https://github.com/wmfs/tymly-upload-plugin/commit/d777372074530c08f900d8b981d28a8b88290c26))
+* **deps-dev:** bump standard from 16.0.2 to 16.0.3 ([330e642](https://github.com/wmfs/tymly-upload-plugin/commit/330e642fd642cb7af3b11505ec97931889c3b2f2))
+* Exclude from tymly-sync ([e783ce3](https://github.com/wmfs/tymly-upload-plugin/commit/e783ce3348e5d75671c2429098308c5445a8a74b))
+
+
+### 📦 Code Refactoring
+
+* remove standard from npm test script [skip ci] ([2e49b43](https://github.com/wmfs/tymly-upload-plugin/commit/2e49b4335eecea744698659d05a6be7c68d5815b))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** authenticate Docker image pull [ch2767] ([48e9859](https://github.com/wmfs/tymly-upload-plugin/commit/48e98595236141db884f600c233c1362a3f19b68))
+* **circle:** cache dependencies [ch2770] ([6c6ac90](https://github.com/wmfs/tymly-upload-plugin/commit/6c6ac90a6e8c03143f666d93d6f2d60c31a2c2a2))
+* **circle:** separate lint job [ch1009] ([32473ab](https://github.com/wmfs/tymly-upload-plugin/commit/32473ab23c7f7adf088bd2021e88cbe2de45803f))
+* **circle:** update build environment variable context name [ch2771] ([08e5a91](https://github.com/wmfs/tymly-upload-plugin/commit/08e5a913cd3515cf6f49fd8ec6c6ef699a83fd45))
+
 # [1.5.0](https://github.com/wmfs/tymly-upload-plugin/compare/v1.4.3...v1.5.0) (2020-10-09)
 
 
