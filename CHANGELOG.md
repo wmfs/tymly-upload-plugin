@@ -1,3 +1,22 @@
+# [1.7.0](https://github.com/wmfs/tymly-upload-plugin/compare/v1.6.0...v1.7.0) (2021-01-12)
+
+
+### 🛠 Builds
+
+* **deps:** bump upath from 2.0.0 to 2.0.1 ([11ccf54](https://github.com/wmfs/tymly-upload-plugin/commit/11ccf547ac40f1a246c2bd2aebd00f16702bc006))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.176.1 to 1.177.0 ([60a7ea8](https://github.com/wmfs/tymly-upload-plugin/commit/60a7ea86dc6b0d0a184517d3cb76ad5a557c430a))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.177.0 to 1.178.0 ([a1d073c](https://github.com/wmfs/tymly-upload-plugin/commit/a1d073c9c0f548cf0265375ecacb44d09acd0c8d))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.178.0 to 1.179.0 ([b13ef8d](https://github.com/wmfs/tymly-upload-plugin/commit/b13ef8d48cc1b1a94dd2033fa8c34b0d926d37fa))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.179.0 to 1.180.0 ([3ff89a9](https://github.com/wmfs/tymly-upload-plugin/commit/3ff89a9ec099acbe18e81ba25ceb594f23137de7))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.180.0 to 1.181.0 ([5b2ed0f](https://github.com/wmfs/tymly-upload-plugin/commit/5b2ed0fa0482748964383d6791fd3893bbd308e1))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.181.0 to 1.182.0 ([f39a0ba](https://github.com/wmfs/tymly-upload-plugin/commit/f39a0ba7a6f7ffc809fddd81fa11c1ea9e53a08d))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([57c07cd](https://github.com/wmfs/tymly-upload-plugin/commit/57c07cd4c73406980ed0a202a106885fe21ee572))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([e6fa18c](https://github.com/wmfs/tymly-upload-plugin/commit/e6fa18c1853a211f254e4b17bbf6ea2b7f1ed732))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.233.0 to 1.234.0 ([7e195ed](https://github.com/wmfs/tymly-upload-plugin/commit/7e195ed7a8260898e60501ac45d43c214251f169))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.234.0 to 1.235.0 ([21e22b0](https://github.com/wmfs/tymly-upload-plugin/commit/21e22b088d2f2f87bd7945d634e9e60d0bab3324))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.235.0 to 1.236.0 ([b200be0](https://github.com/wmfs/tymly-upload-plugin/commit/b200be07a05d378fa5b9726dc4e269a66c7567e2))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.18.0 to 2.19.0 ([1d5b262](https://github.com/wmfs/tymly-upload-plugin/commit/1d5b262112dfa6a2b773c7bd24f63927bedae324))
+
 # [1.6.0](https://github.com/wmfs/tymly-upload-plugin/compare/v1.5.0...v1.6.0) (2021-01-05)
 
 
