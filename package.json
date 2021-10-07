@@ -40,7 +40,7 @@
     "@semantic-release/exec": "5.0.0",
     "@wmfs/tymly": "1.217.0",
     "@wmfs/tymly-cardscript-plugin": "1.35.1",
-    "@wmfs/tymly-pg-plugin": "1.253.0",
+    "@wmfs/tymly-pg-plugin": "1.256.0",
     "@wmfs/tymly-solr-plugin": "2.25.0"
   },
   "scripts": {
