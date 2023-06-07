@@ -1,3 +1,28 @@
+# [1.11.0](https://github.com/wmfs/tymly-upload-plugin/compare/v1.10.0...v1.11.0) (2023-06-07)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.2 ([978f3ba](https://github.com/wmfs/tymly-upload-plugin/commit/978f3ba3a483e25089e32d8d15a2e083d00c4615))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.3 ([5255b7e](https://github.com/wmfs/tymly-upload-plugin/commit/5255b7e3ec615e44f43cc9eb1a744226fcd07f32))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.244.0 ([535b3d8](https://github.com/wmfs/tymly-upload-plugin/commit/535b3d85215952bf93e8ba020e6d0e9f25946f4f))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.246.0 ([8a75916](https://github.com/wmfs/tymly-upload-plugin/commit/8a75916fe9537dc1267377afb75f44ba648ec65e))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.247.0 ([11528c8](https://github.com/wmfs/tymly-upload-plugin/commit/11528c815bb3f4ca6c45c35ce9dbd7e56381e602))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.247.1 ([e117b70](https://github.com/wmfs/tymly-upload-plugin/commit/e117b707f55c5ab8f09920a672ab1f1a2cd22b80))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.256.0 ([e6b928a](https://github.com/wmfs/tymly-upload-plugin/commit/e6b928a20a8ad2257d46403e4b22357ce0c21623))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.43.2 ([b7acab7](https://github.com/wmfs/tymly-upload-plugin/commit/b7acab76aef268fead3fac221d141ae02954d54b))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-pg-plugin to v1.274.0 ([89fc27c](https://github.com/wmfs/tymly-upload-plugin/commit/89fc27c27fc43febe3af89a77e7a39cf6a0dc347))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-pg-plugin to v1.276.0 ([2dff348](https://github.com/wmfs/tymly-upload-plugin/commit/2dff348fef7bb52f9687620ef34550984007c391))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-pg-plugin to v1.283.0 ([2aa28a8](https://github.com/wmfs/tymly-upload-plugin/commit/2aa28a8ef3e9df3dc420ebbf71c2e8797e1bd689))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.36.0 ([e6f6ddf](https://github.com/wmfs/tymly-upload-plugin/commit/e6f6ddfb703bdc4e361d4faae678716c31ce5ceb))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.39.0 ([d76e1ee](https://github.com/wmfs/tymly-upload-plugin/commit/d76e1eeb98c8b057fc2424554650a5fa70102c85))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.39.0 ([bc3d5d1](https://github.com/wmfs/tymly-upload-plugin/commit/bc3d5d154e14081e7445d44e96a7af30f6b7fe1f))
+* **deps-dev:** update dependency chai to v4.3.7 ([d0122c5](https://github.com/wmfs/tymly-upload-plugin/commit/d0122c51d96fdb7e4fa636dde236232d5d379342))
+* **deps-dev:** update dependency mocha to v10.2.0 ([79798f8](https://github.com/wmfs/tymly-upload-plugin/commit/79798f8a286fdee0f9af75f56430711feeb10529))
+* **deps-dev:** update dependency semantic-release to v21 ([56472d3](https://github.com/wmfs/tymly-upload-plugin/commit/56472d3cd0742bc49359ac7a3a243ba1744b6bd4))
+* **deps-dev:** update dependency standard to v17.1.0 ([c7aac6d](https://github.com/wmfs/tymly-upload-plugin/commit/c7aac6dc97002a800b00432a76efa9132b63225e))
+* **deps:** update dependency dottie to v2.0.3 ([c7bdbaa](https://github.com/wmfs/tymly-upload-plugin/commit/c7bdbaa01cb4486afbc7a3748f7af9eddab92d10))
+
 # [1.10.0](https://github.com/wmfs/tymly-upload-plugin/compare/v1.9.0...v1.10.0) (2022-11-02)
 
 
