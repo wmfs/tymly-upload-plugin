@@ -20,7 +20,7 @@
   "main": "./lib/index.js",
   "dependencies": {
     "debug": "4.3.4",
-    "dottie": "2.0.3",
+    "dottie": "2.0.4",
     "file-extension": "4.0.5",
     "file-system": "2.2.2",
     "safe-buffer": "5.2.1",
