@@ -1,3 +1,11 @@
+# [1.13.0](https://github.com/wmfs/tymly-upload-plugin/compare/v1.12.0...v1.13.0) (2023-06-20)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.258.0 ([8804e5a](https://github.com/wmfs/tymly-upload-plugin/commit/8804e5a274e7fa2d38942326f7f4c5f048bba785))
+* **deps:** update dependency dottie to v2.0.6 ([6afd1ba](https://github.com/wmfs/tymly-upload-plugin/commit/6afd1babeb84d03a3270e6929ff9afa2ce5253b4))
+
 # [1.12.0](https://github.com/wmfs/tymly-upload-plugin/compare/v1.11.0...v1.12.0) (2023-06-20)
 
 
