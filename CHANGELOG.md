@@ -1,3 +1,12 @@
+# [1.12.0](https://github.com/wmfs/tymly-upload-plugin/compare/v1.11.0...v1.12.0) (2023-06-20)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-pg-plugin to v1.284.0 ([e55d991](https://github.com/wmfs/tymly-upload-plugin/commit/e55d991b9c0cc99c48c624b56f91cd1d306ed23b))
+* **deps-dev:** update dependency semantic-release to v21.0.5 ([0151bfa](https://github.com/wmfs/tymly-upload-plugin/commit/0151bfa5495030d67ec8abeb3a9462605a8ba45f))
+* **deps:** update dependency dottie to v2.0.4 [security] ([b81de51](https://github.com/wmfs/tymly-upload-plugin/commit/b81de519a8999cddb05239ef1a826640a20daf4b))
+
 # [1.11.0](https://github.com/wmfs/tymly-upload-plugin/compare/v1.10.0...v1.11.0) (2023-06-07)
 
 
