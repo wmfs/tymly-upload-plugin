@@ -41,7 +41,7 @@
     "@wmfs/tymly": "1.298.0",
     "@wmfs/tymly-cardscript-plugin": "1.51.0",
     "@wmfs/tymly-pg-plugin": "1.310.0",
-    "@wmfs/tymly-solr-plugin": "2.50.0"
+    "@wmfs/tymly-solr-plugin": "2.51.0"
   },
   "scripts": {
     "lint": "standard",
