@@ -24,7 +24,7 @@
     "file-extension": "4.0.5",
     "file-system": "2.2.2",
     "safe-buffer": "5.2.1",
-    "upath": "2.0.1"
+    "upath": "3.0.7"
   },
   "devDependencies": {
     "chai": "6.2.2",
